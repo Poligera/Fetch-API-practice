@@ -91,10 +91,12 @@ button:active {
     font-size: 0.6rem;
     padding: 0.5rem;
     bottom: 0.7rem;
+    right: calc(50% - 4.4rem);
   }
 
   .jokepar {
-    margin-top: 0.1rem;
-    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    line-height: normal;
   }
 }
