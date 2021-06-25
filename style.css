@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+}
+
+main {
+  height: 100%;
+}
+
+section {
+  margin: auto;
+  width: 25vw;
+  height: 55vh;
+  margin-top: 20vh;
+  border: 0.6rem solid blue;
+  border-radius: 20px;
+  background-color: antiquewhite;
+  contain: content;
+}
+
+button {
+  padding: 1rem 2rem;
+  border-radius: 7px;
+  margin-top: 10vh;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border: darkgray 0.4rem groove;
+}
+
+button:hover {
+  background-color: azure;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: bisque;
+}
