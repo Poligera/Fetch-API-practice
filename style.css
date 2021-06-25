@@ -14,8 +14,8 @@ main {
 
 section {
   margin: auto;
-  width: 25vw;
-  height: 55vh;
+  width: 40vw;
+  height: 70vh;
   margin-top: 20vh;
   border: 0.6rem solid blue;
   border-radius: 20px;
@@ -24,9 +24,9 @@ section {
 }
 
 button {
-  padding: 1rem 2rem;
-  border-radius: 7px;
-  margin-top: 10vh;
+  padding: 0.8rem 1.4rem;
+  border-radius: 6px;
+  margin-top: 8vh;
   font-weight: bold;
   font-size: 1.2rem;
   border: darkgray 0.4rem groove;
