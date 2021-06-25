@@ -72,9 +72,14 @@ button:active {
   }
 
   .jokepar {
-    margin-top: 16vh;
+    margin-top: 1vh;
+    line-height: 2rem;
     padding: 1rem;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+  }
+
+  .btn-bottom {
+    margin-bottom: 1.5rem;
   }
 }
 
@@ -90,7 +95,7 @@ button:active {
     text-align: center;
     font-size: 0.6rem;
     padding: 0.5rem;
-    bottom: 0.7rem;
+    bottom: 1rem;
     right: calc(50% - 4.4rem);
   }
 
