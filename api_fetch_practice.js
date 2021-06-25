@@ -4,8 +4,7 @@ const jokeURL = "https://official-joke-api.appspot.com/random_joke";
 const button = document.querySelector("button");
 const section = document.querySelector("section");
 const jokeParagraph = document.createElement("p");
-jokeParagraph.style.padding = "5rem 1rem";
-jokeParagraph.style.fontSize = "1.5rem";
+jokeParagraph.className = "jokepar";
 
 function fetchJoke() {
   fetch(jokeURL)
