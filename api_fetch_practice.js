@@ -19,6 +19,8 @@ function fetchJoke() {
 function addJoketoDOM(joke) {
   jokeParagraph.innerHTML = `- ${joke.setup}<br /><br/>-${joke.punchline}`;
   section.appendChild(jokeParagraph);
+  section.insertBefore(jokeParagraph, button);
+  button.className = "btn-bottom";
 }
 
 button.addEventListener("click", fetchJoke);
